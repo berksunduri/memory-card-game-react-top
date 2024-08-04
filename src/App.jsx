@@ -60,6 +60,7 @@ const App = () => {
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
       <div className="w-full max-w-7xl px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-bold mb-8 text-blue-600 text-center">Memory Card Game</h1>
+        <p className="text-lg mb-6 text-gray-700 text-center">Click on cards to earn points, but don't click the same card twice!</p>        
         <div className="flex justify-between w-full mb-6">
           <p className="text-4xl font-bold mb-8 text-blue-600">Score: {score}</p>
           <p className="text-4xl font-bold mb-8 text-blue-600">Best Score: {bestScore}</p>
